@@ -163,3 +163,5 @@ export default {
           background: $color-text-ll
 </style>
 ```
+在使用better-scroll做轮播图的时候不要设置高度，因为是根据图片自动撑开的
+在使用better-scroll的时候要保证BOM已经正确渲染这个时候better-scroll才会计算高度就可以滚动
